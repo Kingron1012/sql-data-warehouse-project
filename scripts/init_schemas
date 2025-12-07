@@ -1,3 +1,12 @@
+/*
+====================================================
+CREATE SCHEMAS FOR THE DATABASE
+====================================================
+
+Script Purpose:
+  This script creates three schemas (bronze, silver and gold), if it does not exist in the current database.
+*/
+
 CREATE SCHEMA IF NOT EXISTS bronze;
 CREATE SCHEMA IF NOT EXISTS silver;
 CREATE SCHEMA IF NOT EXISTS gold;
